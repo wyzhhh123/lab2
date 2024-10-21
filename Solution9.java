@@ -42,7 +42,7 @@ class Solution9 {
     public boolean possibleBipartition(int n, int[][] dislikes) {
         int[] fa = new int[n + 1];
         Arrays.fill(fa, -1);
-        List<Integer>[] g = new List[n + 1];
+        List<Integer>[] g = new List[n + 1];//修改完成并通过测试类
         for (int i = 1; i <= n; ++i) {
             g[i] = new ArrayList<>();
         }
